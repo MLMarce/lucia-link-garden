@@ -8,7 +8,9 @@ import {
   Mail,
   Calendar,
   Download,
-  Music4
+  Music4,
+  Heart,
+  MessageSquare
 } from 'lucide-react';
 
 export const LinktreePage = () => {
@@ -54,6 +56,18 @@ export const LinktreePage = () => {
       icon: <Download size={24} />,
       title: "Free Wellness Guide",
       subtitle: "Download my 30-day wellness journey PDF"
+    },
+    {
+      href: "https://onlyfans.com/lucia.wellness",
+      icon: <Heart size={24} />,
+      title: "OnlyFans",
+      subtitle: "Exclusive wellness content"
+    },
+    {
+      href: "https://reddit.com/u/lucia_wellness",
+      icon: <MessageSquare size={24} />,
+      title: "Reddit",
+      subtitle: "Join wellness discussions"
     }
   ];
 
