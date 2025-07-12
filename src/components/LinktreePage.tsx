@@ -1,14 +1,15 @@
 import { ProfileHeader } from './ProfileHeader';
 import { SocialLinkButton } from './SocialLinkButton';
 import { ThemeToggle } from './ThemeToggle';
-import { 
-  Instagram, 
-  Youtube, 
-  MessageCircle,
+import {
+  Instagram,
+  Youtube,
   Mail,
   Calendar,
   Download,
-  Music4
+  Music4,
+  Heart,
+  MessageSquare
 } from 'lucide-react';
 
 export const LinktreePage = () => {
@@ -32,16 +33,10 @@ export const LinktreePage = () => {
       subtitle: "In-depth wellness & lifestyle videos"
     },
     {
-      href: "https://wa.me/1234567890",
-      icon: <MessageCircle size={24} />,
-      title: "WhatsApp",
-      subtitle: "Connect with me personally"
-    },
-    {
-      href: "mailto:lucia@wellness.com",
+      href: "mailto:miss.nyxx.00@gmail.com",
       icon: <Mail size={24} />,
       title: "Email",
-      subtitle: "lucia@wellness.com"
+      subtitle: "miss.nyxx.00@gmail.com"
     },
     {
       href: "https://calendly.com/lucia-wellness",
@@ -50,10 +45,16 @@ export const LinktreePage = () => {
       subtitle: "1:1 wellness consultations"
     },
     {
-      href: "/lucia-wellness-guide.pdf",
-      icon: <Download size={24} />,
-      title: "Free Wellness Guide",
-      subtitle: "Download my 30-day wellness journey PDF"
+      href: "https://onlyfans.com/lucia.wellness",
+      icon: <Heart size={24} />,
+      title: "OnlyFans",
+      subtitle: "Exclusive wellness content"
+    },
+    {
+      href: "https://reddit.com/u/lucia_wellness",
+      icon: <MessageSquare size={24} />,
+      title: "Reddit",
+      subtitle: "Join wellness discussions"
     }
   ];
 
@@ -68,10 +69,10 @@ export const LinktreePage = () => {
           {/* Social Links */}
           <div className="mt-12 space-y-4">
             {socialLinks.map((link, index) => (
-              <div 
+              <div
                 key={link.title}
-                style={{ 
-                  animationDelay: `${(index + 1) * 0.1}s` 
+                style={{
+                  animationDelay: `${(index + 1) * 0.1}s`
                 }}
               >
                 <SocialLinkButton

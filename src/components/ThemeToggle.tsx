@@ -3,7 +3,7 @@ import { Sun, Moon } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 export const ThemeToggle = () => {
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(true);
 
   useEffect(() => {
     // Check for saved theme preference or default to light mode

@@ -1,4 +1,4 @@
-import luciaProfile from '@/assets/lucia-profile.jpg';
+import missProfile from '@/assets/missperfil.jpg';
 
 export const ProfileHeader = () => {
   return (
@@ -6,7 +6,7 @@ export const ProfileHeader = () => {
       {/* Profile Image */}
       <div className="relative w-32 h-32 mx-auto">
         <img
-          src={luciaProfile}
+          src={missProfile}
           alt="Lucía González - Content Creator"
           className="w-full h-full object-cover rounded-full shadow-glow border-4 border-primary/20"
         />
@@ -16,13 +16,13 @@ export const ProfileHeader = () => {
       {/* Name and Title */}
       <div className="space-y-3">
         <h1 className="text-4xl font-bold text-foreground tracking-tight">
-          Lucía González
+          Miss Nyx
         </h1>
         <p className="text-lg text-muted-foreground font-medium">
           Content Creator | Wellness & Lifestyle
         </p>
         <p className="text-base text-muted-foreground max-w-md mx-auto leading-relaxed">
-          ✨ Sharing wellness tips, lifestyle inspiration, and positive vibes daily. 
+          ✨ Sharing wellness tips, lifestyle inspiration, and positive vibes daily.
           Join me on this beautiful journey! 🌸
         </p>
       </div>
