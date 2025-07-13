@@ -9,7 +9,8 @@ import {
   Download,
   Music4,
   Heart,
-  MessageSquare
+  MessageSquare,
+  Twitter
 } from 'lucide-react';
 
 export const LinktreePage = () => {
@@ -25,6 +26,12 @@ export const LinktreePage = () => {
       icon: <Music4 size={24} />,
       title: "TikTok",
       subtitle: "Quick wellness tips & lifestyle hacks"
+    },
+    {
+      href: "https://x.com/MixNyxx00",
+      icon: <Twitter size={24} />,
+      title: "X (Twitter)",
+      subtitle: "@MixNyxx00 - Follow my updates"
     },
     {
       href: "https://youtube.com/@luciagonzalez",
