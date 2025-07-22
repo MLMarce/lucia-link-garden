@@ -11,6 +11,8 @@ import {
   Heart,
   MessageSquare,
   Twitter
+  MessageSquare,
+  Twitter
 } from 'lucide-react';
 
 export const LinktreePage = () => {
