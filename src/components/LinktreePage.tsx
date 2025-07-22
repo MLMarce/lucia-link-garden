@@ -9,28 +9,23 @@ import {
   Download,
   Music4,
   Heart,
-  MessageSquare
+  MessageSquare,
+  Twitter
 } from 'lucide-react';
 
 export const LinktreePage = () => {
   const socialLinks = [
     {
-      href: "https://instagram.com/lucia.wellness",
-      icon: <Instagram size={24} />,
-      title: "Instagram",
-      subtitle: "@lucia.wellness - Daily wellness content"
-    },
-    {
-      href: "https://tiktok.com/@lucia.wellness",
+      href: "https://tiktok.com/@missnyxx_00_",
       icon: <Music4 size={24} />,
       title: "TikTok",
       subtitle: "Quick wellness tips & lifestyle hacks"
     },
     {
-      href: "https://youtube.com/@luciagonzalez",
-      icon: <Youtube size={24} />,
-      title: "YouTube",
-      subtitle: "In-depth wellness & lifestyle videos"
+      href: "https://x.com/MissNyx00",
+      icon: <Twitter size={24} />,
+      title: "X (Twitter)",
+      subtitle: "@MissNyxx00 - Follow my updates"
     },
     {
       href: "mailto:miss.nyxx.00@gmail.com",
@@ -39,19 +34,13 @@ export const LinktreePage = () => {
       subtitle: "miss.nyxx.00@gmail.com"
     },
     {
-      href: "https://calendly.com/lucia-wellness",
-      icon: <Calendar size={24} />,
-      title: "Book a Session",
-      subtitle: "1:1 wellness consultations"
-    },
-    {
-      href: "https://onlyfans.com/lucia.wellness",
+      href: "https://onlyfans.com/missnyxx00",
       icon: <Heart size={24} />,
       title: "OnlyFans",
       subtitle: "Exclusive wellness content"
     },
     {
-      href: "https://reddit.com/u/lucia_wellness",
+      href: "https://reddit.com/u/MissNyxOfficial",
       icon: <MessageSquare size={24} />,
       title: "Reddit",
       subtitle: "Join wellness discussions"
@@ -93,8 +82,8 @@ export const LinktreePage = () => {
             </p>
             <div className="mt-4 flex justify-center space-x-1">
               <div className="w-2 h-2 bg-primary rounded-full animate-bounce-gentle"></div>
-              <div className="w-2 h-2 bg-primary/60 rounded-full animate-bounce-gentle" style={{ animationDelay: '0.1s' }}></div>
-              <div className="w-2 h-2 bg-primary/40 rounded-full animate-bounce-gentle" style={{ animationDelay: '0.2s' }}></div>
+              <div className="w-2 h-2 bg-primary rounded-full animate-bounce-gentle" style={{ animationDelay: '0.1s' }}></div>
+              <div className="w-2 h-2 bg-primary rounded-full animate-bounce-gentle" style={{ animationDelay: '0.2s' }}></div>
             </div>
           </footer>
         </div>
