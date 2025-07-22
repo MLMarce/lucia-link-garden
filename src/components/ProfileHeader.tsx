@@ -22,8 +22,9 @@ export const ProfileHeader = () => {
           Content Creator | Wellness & Lifestyle
         </p>
         <p className="text-base text-muted-foreground max-w-md mx-auto leading-relaxed">
-          ✨ Sharing wellness tips, lifestyle inspiration, and positive vibes daily.
-          Join me on this beautiful journey! 🌸
+          ✨ Dark elegance, cruel intentions.
+          I demand obedience and tributes.
+          If you’re weak for power… welcome home.
         </p>
       </div>
     </div>
