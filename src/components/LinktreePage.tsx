@@ -2,15 +2,9 @@ import { ProfileHeader } from './ProfileHeader';
 import { SocialLinkButton } from './SocialLinkButton';
 import { ThemeToggle } from './ThemeToggle';
 import {
-  Instagram,
-  Youtube,
   Mail,
-  Calendar,
-  Download,
   Music4,
   Heart,
-  MessageSquare,
-  Twitter
   MessageSquare,
   Twitter
 } from 'lucide-react';
