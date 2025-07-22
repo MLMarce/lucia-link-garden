@@ -19,12 +19,11 @@ export const ProfileHeader = () => {
           Miss Nyx
         </h1>
         <p className="text-lg text-muted-foreground font-medium">
-          Content Creator | Wellness & Lifestyle
+          Digital Dominatrix | Financial Obedience Expert
         </p>
         <p className="text-base text-muted-foreground max-w-md mx-auto leading-relaxed">
-          ✨ Dark elegance, cruel intentions.
-          I demand obedience and tributes.
-          If you’re weak for power… welcome home.
+          Dark elegance. Cruel control. I demand obedience, not attention.
+          If you're weak for power… kneel and stay.
         </p>
       </div>
     </div>

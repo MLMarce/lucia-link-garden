@@ -15,13 +15,13 @@ export const LinktreePage = () => {
       href: "https://tiktok.com/@missnyxx_00_",
       icon: <Music4 size={24} />,
       title: "TikTok",
-      subtitle: "Quick wellness tips & lifestyle hacks"
+      subtitle: "Soft power. Subtle control. Visual temptation. A taste of My reign... in motion."
     },
     {
       href: "https://x.com/MissNyx00",
       icon: <Twitter size={24} />,
       title: "X (Twitter)",
-      subtitle: "@MissNyxx00 - Follow my updates"
+      subtitle: "Daily orders, humiliations & teasers. Follow your addiction into submission."
     },
     {
       href: "mailto:miss.nyxx.00@gmail.com",
@@ -30,16 +30,16 @@ export const LinktreePage = () => {
       subtitle: "miss.nyxx.00@gmail.com"
     },
     {
-      href: "https://onlyfans.com/missnyxx00",
-      icon: <Heart size={24} />,
-      title: "OnlyFans",
-      subtitle: "Exclusive wellness content"
-    },
-    {
       href: "https://reddit.com/u/MissNyxOfficial",
       icon: <MessageSquare size={24} />,
       title: "Reddit",
-      subtitle: "Join wellness discussions"
+      subtitle: "Where weak minds come to worship. Explore My darker desires — if you dare."
+    },
+    {
+      href: "https://onlyfans.com/missnyxx00",
+      icon: <Heart size={24} />,
+      title: "+18 | OnlyFans",
+      subtitle: "Exclusive access to My world. Obedience is not optional.Tribute to serve your Goddess properly."
     }
   ];
 
