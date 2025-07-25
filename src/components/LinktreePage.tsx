@@ -18,7 +18,7 @@ export const LinktreePage = () => {
       subtitle: "Soft power. Subtle control. Visual temptation. A taste of My reign... in motion."
     },
     {
-      href: "https://x.com/MissNyx00",
+      href: "https://x.com/MissNyx0",
       icon: <Twitter size={24} />,
       title: "X (Twitter)",
       subtitle: "Daily orders, humiliations & teasers. Follow your addiction into submission."
